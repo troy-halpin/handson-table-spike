@@ -149,11 +149,7 @@ function FontRendererComponent(props: any) {
   // - TD (the HTML cell element)
   // - cellProperties (the cellProperties object for the edited cell)
   console.log(props)
-  return (
-    <>
-      <Font {...props}>value: {props.value}</Font>
-    </>
-  )
+  return <Font {...props}>value: {props.value}</Font>
 }
 
 export const HandsonTable = (props: any) => {
